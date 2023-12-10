@@ -9,7 +9,7 @@ import com.yashwanth.backend.exception.UserNotFoundException;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://aptiglide.netlify.app")
+@CrossOrigin("http://localhost:5173")
 public class UserController {
     @Autowired
     private Userrepo userrepo;
